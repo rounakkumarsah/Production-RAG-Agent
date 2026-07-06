@@ -1,0 +1,33 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Environment files (NEVER commit secrets) ──────────────────────────────────
+.env
+.env.*
+!.env.example
+
+# ── IDE / OS artefacts ────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# ── Docker volumes (if mounted locally) ──────────────────────────────────────
+postgres_data/
+qdrant_data/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/

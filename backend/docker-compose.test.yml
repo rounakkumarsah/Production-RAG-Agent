@@ -1,0 +1,19 @@
+services:
+  backend-test:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    container_name: rag_backend_test
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ragdb_test
+      QDRANT_COLLECTION: documents_test
+      POSTGRES_HOST: postgres
+      QDRANT_HOST: qdrant
+    networks:
+      - rag_net
+    depends_on:
+      - postgres
+      - qdrant
