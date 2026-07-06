@@ -221,25 +221,25 @@ Real-time monitoring for:
 
 ## Dashboard
 
-> Add dashboard screenshot here
+> ![Dashboard](./screenshots/dashboard.png)
 
 ---
 
 ## Upload Documents
 
-> Add upload page screenshot here
+> ![Upload Documents](./screenshots/upload.png)
 
 ---
 
 ## Documents
 
-> Add documents page screenshot here
+> ![Documents](./screenshots/documents.png)
 
 ---
 
 ## AI Chat
 
-> Add chat page screenshot here
+> ![AI Chat](./screenshots/chat.png)
 
 ---
 
